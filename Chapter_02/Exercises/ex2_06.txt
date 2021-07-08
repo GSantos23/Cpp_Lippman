@@ -1,0 +1,10 @@
+Exercise 2.6: What, if any, are the differences between the following
+definitions:
+
+int month = 9, day = 7;
+int month = 09, day = 07;
+
+Answer: The representation of the numbers,  second line are in octal; however
+one return the same value after a conversion of base, while the other
+represents 11.
+
