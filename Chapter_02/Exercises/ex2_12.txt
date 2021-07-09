@@ -1,0 +1,17 @@
+Exercises Section 2.2.3
+Exercise 2.12: Which, if any, of the following names are invalid?
+
+(a) int double = 3.14;
+valid
+
+(b) int _;
+invalid
+
+(c) int catch-22;
+invalid
+
+(d) int 1_or_2 = 1;
+invalid
+
+(e) double Double = 3.14;
+valid but confusing
