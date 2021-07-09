@@ -1,0 +1,15 @@
+Exercise 2.9: Explain the following definitions. For those that are illegal,
+explain what’s wrong and how to correct it.
+
+(a) std::cin >> int input_value;
+It is prefered to have the definition before the cin.
+
+(b) int i = { 3.14 };
+The value is going to be truncated, also becuase we are using C++11-type
+initializer the compiler is going to throw warnings
+
+(c) double salary = wage = 9999.99;
+Two value with the same assigment.
+
+(d) int i = 3.14;
+Another value with truncated assigment.
