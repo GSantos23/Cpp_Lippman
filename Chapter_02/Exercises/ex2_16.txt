@@ -1,0 +1,13 @@
+Exercise 2.16: Which, if any, of the following assignments are invalid? If
+they are valid, explain what they do.
+
+
+int i = 0, &r1 = i; double d = 0, &r2 = d;
+
+(a) r2 = 3.14159; --> reassigment of r2(d) to new value
+
+(b) r2 = r1; --> could cause truncate value, one is int the other double
+
+(c) i = r2; --> same as before
+
+(d) r1 = d; --> same as before

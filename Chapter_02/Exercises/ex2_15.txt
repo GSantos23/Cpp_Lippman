@@ -1,0 +1,9 @@
+Exercise 2.15: Which of the following definitions, if any, are invalid? Why?
+
+(a) int ival = 1.01;    --> Valid, a simple declaration
+
+(b) int &rval1 = 1.01; --> Invalid, a reference must be an alias for another
+
+(c) int &rval2 = ival; --> valid, proper reference (alias) for ival
+
+(d) int &rval3         --> invalid, a reference must be initialized
