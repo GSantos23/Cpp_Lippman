@@ -1,0 +1,15 @@
+Exercise 2.21: Explain each of the following definitions. Indicate whether
+any are illegal and, if so, why.
+
+int i = 0;
+
+
+(a) double* dp = &i;
+Error, pointer should be of same type
+
+(b) int *ip = i;
+Error, it is illegal to assign an int variable to a pointer, even if the value is
+zero
+
+(c) int *p = &i;
+Legal

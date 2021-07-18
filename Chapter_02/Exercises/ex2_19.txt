@@ -1,0 +1,5 @@
+Exercise 2.19: Explain the key differences between pointers and references.
+
+A reference is a simple alias to another variable, without access to the address,
+while a pointer can modify and make operation to that address; for example change
+the value that points.

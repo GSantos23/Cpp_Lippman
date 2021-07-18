@@ -1,0 +1,7 @@
+Exercise 2.22: Assuming p is a pointer to int, explain the following code:
+
+if (p) // ...
+if (*p) // ...
+
+Depending the value that points to, it could be true or false. Assuming for
+example, that p  = 0, it is true. Otherwise it is false for the evualation.

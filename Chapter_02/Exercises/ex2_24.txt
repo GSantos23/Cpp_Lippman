@@ -1,0 +1,6 @@
+Exercise 2.24: Why is the initialization of p legal but that of lp illegal?
+
+int i = 42; void *p = &i; long *lp = &i;
+
+Because of the difference of types, even though long is an int, the range of 
+values it can hold differs.

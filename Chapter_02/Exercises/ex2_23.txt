@@ -1,0 +1,5 @@
+Exercise 2.23: Given a pointer p, can you determine whether p points to a
+valid object? If so, how? If not, why not?
+
+Depends, if we know the type of the pointer, it is going to point to the same
+type. If we have a void* it is going to mimic/hold the addres of any pointer
