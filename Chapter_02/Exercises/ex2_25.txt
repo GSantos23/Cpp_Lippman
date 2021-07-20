@@ -1,0 +1,15 @@
+Exercise 2.25: Determine the types and values of each of the following
+variables.
+
+(a) int* ip, &r = ip;
+ip is a pointer to int, uninitialized
+r is a reference to a pointer
+
+
+(b) int i, *ip = 0;
+i is an integer with dummy value.
+ip is a pointer to int with value 0 or nullptr.
+
+(c) int* ip, ip2;
+ip is a pointer to int
+ip2 is a integer value with dummy value
