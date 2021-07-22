@@ -1,0 +1,20 @@
+Exercise 2.29: Uing the variables in the previous exercise, which of the
+following assignments are legal? Explain why.
+
+(a) i = ic;
+Legal, normal declaration
+
+(b) p1 = p3;
+Legal
+
+(c) p1 = &ic;
+Legal
+
+(d) p3 = &ic;
+Illegal, they are not initialized
+
+(e) p2 = p1;
+Illegal, they are not initialized
+
+(f) ic = *p3;
+Legal, both are const int

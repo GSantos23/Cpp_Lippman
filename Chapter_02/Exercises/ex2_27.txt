@@ -1,0 +1,22 @@
+Exercise 2.27: Which of the following initializations are legal? Explain why.
+
+(a) int i = -1, &r = 0;
+Legal, normal declaration of int and a reference
+
+(b) int *const p2 = &i2;
+Legal, const pointer to int declaration
+
+(c) const int i = -1, &r = 0;
+Legal, normal declaration
+
+(d) const int *const p3 = &i2;
+Legal, normal const pointer to const int declaration
+
+(e) const int *p1 = &i2;
+legal
+
+(f) const int &const r2;
+Illegal, nthe syntaxis is wrong
+
+(g) const int i2 = i, &r = i;
+could cause confusion

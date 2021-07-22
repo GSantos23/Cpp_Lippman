@@ -1,0 +1,18 @@
+Exercise 2.28: Explain the following definitions. Identify any that are illegal.
+
+(a) int i, *const cp;
+Illegal, not initialized
+
+
+(b) int *p1, *const p2;
+Illegal, not initialized
+
+
+(c) const int ic, &r = ic;
+Legal, 
+
+(d) const int *const p3;
+Illegal, not initialized
+
+(e) const int *p;
+Illegal, no initialization
