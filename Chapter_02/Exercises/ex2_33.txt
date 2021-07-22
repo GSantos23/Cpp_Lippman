@@ -1,0 +1,13 @@
+Exercise 2.33: Using the variable definitions from this section, determine
+what happens in each of these assignments:
+
+
+a = 42;		b = 42;     c = 42;
+d = 42;		e = 42;		g = 42;
+
+a) i = 42
+b) ci = 42
+c) cr -> ci  42
+d) pointer to i
+e) pointer to ci (const type) we cannot assigned value
+g) reference to ci = 42
