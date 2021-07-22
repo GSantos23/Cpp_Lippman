@@ -1,0 +1,11 @@
+Exercise 2.31: Given the declarations in the previous exercise determine
+whether the following assignments are legal. Explain how the top-level or
+low-level const applies in each case.
+
+// low level
+r1 = v2;
+// top level
+p1 = p2; p2 = p1;
+
+// top level
+p1 = p3; p2 = p3;
