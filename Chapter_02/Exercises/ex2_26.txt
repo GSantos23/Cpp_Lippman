@@ -1,0 +1,15 @@
+Exercise 2.26: Which of the following are legal? For those that are illegal,
+explain why.
+
+(a) const int buf;
+not legal, you cannot have a const uninitialized
+
+(b) int cnt = 0;
+legal, normal int variable declaration
+
+(c) const int sz = cnt;
+legal, the value of cnt is copies into sz
+
+(d) ++cnt; ++sz;
+Depends, if cnt and sz are not const variable there is not issue, otherwise cnt
+is not legal
