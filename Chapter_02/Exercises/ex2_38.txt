@@ -1,0 +1,9 @@
+Exercise 2.38: Describe the differences in type deduction between
+decltype and auto. Give an example of an expression where auto and
+decltype will deduce the same type and an example where they will deduce
+differing types.
+
+Using decltype we can now the type of a operand, however take in mind that if
+it have double paentheses (()) it must be a reference type. Now, a type deduction
+using auto its type specifier must have an initialzer; just keep in mind that if
+multiple declarations are made they must be consistent.
