@@ -36,7 +36,6 @@ int main()
 
 	sa_size = stringA.size();
 	sb_size = stringB.size();
-	total_size = sa_size + sb_size;
 	// https://www.cplusplus.com/reference/string/string/insert/
 	// string& insert (size_t pos, const string& str);
 	divorce = concatAB.insert(sa_size, " ");
