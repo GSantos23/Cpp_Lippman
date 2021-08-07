@@ -1,0 +1,6 @@
+Exercise 3.3: Explain how whitespace characters are handled in the string
+input operator and in the getline function.
+
+Like in the previous exercise while using input operator (>>), at every space 
+the operator captures another word; however when using getline() until it records
+a null terminator (\0) or newline it is going to capture that word.
