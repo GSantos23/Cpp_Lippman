@@ -1,0 +1,23 @@
+Exercise 3.13: How many elements are there in each of the following
+vectors? What are the values of the elements?
+
+(a) vector<int> v1;
+// one element with empty value
+
+(b) vector<int> v2(10);
+// ten elements with value 0
+
+(c) vector<int> v3(10, 42);
+// ten elements filled with value 42
+
+(d) vector<int> v4{10};
+// one element with value 10
+
+(e) vector<int> v5{10, 42};
+// two elemetns with value 10 and 42
+
+(f) vector<string> v6{10};
+// one element with empty value
+
+(g) vector<string> v7{10, "hi"};
+// ten elements with value "hi"
