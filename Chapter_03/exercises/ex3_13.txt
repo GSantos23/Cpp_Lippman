@@ -2,7 +2,7 @@ Exercise 3.13: How many elements are there in each of the following
 vectors? What are the values of the elements?
 
 (a) vector<int> v1;
-// one element with empty value
+// empty value
 
 (b) vector<int> v2(10);
 // ten elements with value 0
@@ -17,7 +17,7 @@ vectors? What are the values of the elements?
 // two elemetns with value 10 and 42
 
 (f) vector<string> v6{10};
-// one element with empty value
+// ten element with empty value
 
 (g) vector<string> v7{10, "hi"};
 // ten elements with value "hi"
