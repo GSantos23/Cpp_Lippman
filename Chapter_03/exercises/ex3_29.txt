@@ -1,0 +1,15 @@
+Exercise 3.29: List some of the drawbacks of using an array instead of a
+vector.
+
+A thumb rule is, if you don't know the number of elements to use, go with vector.
+
+* vectors can adjust and resize the elements
+
+* arrays are fixed values
+
+* You cannot use auto keyword
+
+* You need to use constexpr 
+
+* You cannot copy and array with just a single expression
+
