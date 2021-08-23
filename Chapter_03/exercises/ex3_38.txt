@@ -1,0 +1,7 @@
+Exercise 3.38: In this section, we noted that it was not only illegal but
+meaningless to try to add two pointers. Why would adding two pointers be
+meaningless?
+
+Assuming that both pointer are from different references, adding this pointers
+does not solve anything, the only useful comparison is to point to begin and end
+of an array for further reference.
